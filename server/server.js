@@ -6,7 +6,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: '*', // Be cautious with this in production
+  origin: 'https://news-mania-frontend.vercel.app', 
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
